@@ -173,18 +173,18 @@ p {
   width: 69.9%;
   background-color: gainsboro;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 65px;
+  z-index: 1;
 }
 
 .navigation a {
-  margin: 25px;
+  /* margin: 25px; */
   /* display: inline-block; */
 
   color: grey;
   text-decoration: none;
-}
-
-.greatidealogo {
-  margin-top: 15px;
 }
 
 .navigation a:hover {
@@ -233,6 +233,8 @@ header {
   padding: 10px 50px;
   border: 1px solid black;
   cursor: pointer;
+  outline: 0;
+  border-radius: 5px;
 }
 
 .getStarted:focus {
@@ -273,6 +275,7 @@ header {
   margin: 5%;
   border-top: 1px solid black;
   padding-top: 3%;
+  text-align: left;
 }
 
 footer {
@@ -282,8 +285,8 @@ footer {
 }
 
 .services-header-img {
-  margin-top: 75px;
-  margin-left: 30px;
+  margin-top: 8%;
+  margin-left: 3%;
 }
 
 .services {
@@ -328,6 +331,13 @@ footer {
   border-radius: 5px;
   font-size: 12px;
   background-color: white;
+  cursor: pointer;
+}
+
+.learnMore:focus {
+  background-color: dimgrey;
+  color: white;
+  outline: 0;
 }
 
 .sectionBottom {
@@ -350,4 +360,73 @@ footer {
 
 li {
   margin: 15px 0px;
+}
+
+.contactInfo {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.contactInfo h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#yourName {
+  height: 50px;
+  width: 75%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #f4f3f4;
+  font-size: 20px;
+  font-family: "Blinker", "Sans-Serif";
+  opacity: 0.5;
+}
+
+#yourEmail {
+  height: 50px;
+  width: 75%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #f4f3f4;
+  font-size: 20px;
+  font-family: "Blinker", "Sans-Serif";
+  opacity: 0.5;
+  margin-top: 15px;
+}
+
+#yourMessage {
+  height: 200px;
+  width: 75%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #f4f3f4;
+  font-size: 20px;
+  font-family: "Blinker", "Sans-Serif";
+  opacity: 0.5;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  resize: none;
+}
+
+.submitContact {
+  border: 1px solid black;
+  padding: 10px;
+  width: 150px;
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: #f4f3f4;
+  cursor: pointer;
+}
+
+.submitContact:focus {
+  background-color: dimgrey;
+  color: white;
+  outline: 0;
 }
