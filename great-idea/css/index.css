@@ -373,7 +373,7 @@ li {
 }
 
 #yourName {
-  height: 50px;
+  height: 40px;
   width: 75%;
   border-radius: 5px;
   outline: none;
@@ -383,10 +383,11 @@ li {
   font-size: 20px;
   font-family: "Blinker", "Sans-Serif";
   opacity: 0.5;
+  resize: none;
 }
 
 #yourEmail {
-  height: 50px;
+  height: 40px;
   width: 75%;
   border-radius: 5px;
   outline: none;
@@ -397,6 +398,7 @@ li {
   font-family: "Blinker", "Sans-Serif";
   opacity: 0.5;
   margin-top: 15px;
+  resize: none;
 }
 
 #yourMessage {
