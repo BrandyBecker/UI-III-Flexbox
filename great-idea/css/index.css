@@ -152,6 +152,8 @@ h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+/* Home Page CSS Below */
+
 p {
   line-height: 1.25;
   margin: 20px 0;
@@ -284,6 +286,8 @@ footer {
   margin-top: 10%;
 }
 
+/* Services Page CSS Below */
+
 .services-header-img {
   margin-top: 8%;
   margin-left: 3%;
@@ -362,6 +366,8 @@ li {
   margin: 15px 0px;
 }
 
+/* Contact page CSS below */
+
 .contactInfo {
   margin-top: 10%;
   text-align: center;
@@ -432,6 +438,8 @@ li {
   color: white;
   outline: 0;
 }
+
+/* Other pages WIP CSS below */
 
 .wip {
   margin-top: 15%;
