@@ -432,3 +432,13 @@ li {
   color: white;
   outline: 0;
 }
+
+.wip {
+  margin-top: 15%;
+  text-align: center;
+}
+
+.wip h2 {
+  text-align: center;
+  font-size: 40px;
+}
